@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "PORT=9999 env=development nodemon ./bin/www"
+    "dev": "node-inspector --save-live-edit ./bin/www & PORT=9999 env=development nodemon --debug ./bin/www",
+    "debug": ""
   },
   "dependencies": {
     "blocked": "^1.2.1",
