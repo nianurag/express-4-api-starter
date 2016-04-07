@@ -8,6 +8,7 @@ router.get('/', function (req, res, next) {
     a: 1,
     b: 2
   };
+  eval(locus);
   res.send(JSON.stringify(object, null, 3));
   //res.render('index', { title: 'Express' });
 });
