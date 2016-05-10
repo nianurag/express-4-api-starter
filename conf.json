@@ -1,0 +1,9 @@
+{
+  "dbConnection": {
+    "host"     : "127.0.0.1",
+    "user"     : "postgres",
+    "password" : "zoomo123",
+    "database" : "gozoomo",
+    "charset"  : "utf8"
+  }
+}
